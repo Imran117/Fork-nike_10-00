@@ -22,7 +22,7 @@ body {
 .project__content {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 .title__img {
   display: flex;
@@ -41,6 +41,7 @@ body {
   border: 1px solid #D7D6DC;
   border-radius: 3px;
   padding: 14px 15px;
+  margin: 15px;
 }
 .section__project-title {
   font-family: 'Roboto';
