@@ -23,6 +23,14 @@
 }
 
 @media (max-width:1200px) {
+
+    .project__content {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    }
+  
+
 .main__shoes-pharagraph {
     margin: 15px 0px;
 }
@@ -43,6 +51,7 @@
      grid-gap: 20px;
 
   } 
+
 }
 
 @media (max-width:992px) {
@@ -138,6 +147,36 @@
 
 @media (max-width: 320px) {
     
+}
+@media (max-width:400px) {
+    .project__img {
+    display: none;
+}
+.section__project__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+}
+.section__project-text {
+    max-width: 201px;
+    width: 100%;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.project__btn {
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+}
+@media (max-width:350px) {
+    .project__btn {
+        margin: 0 10px;
+    }
 }
 
 /*  qoshimcha medialar >>>  */
