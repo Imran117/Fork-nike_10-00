@@ -1,41 +1,74 @@
 @media (max-width:1400px) {
-  .container {
+.container {
     padding: 10px 15px;
-  }
-  .main__shoes-buy:nth-child(2n) {
+}
+.main__shoes-buy:nth-child(2n) {
     margin: 0;
-  }
-  .main__shoes-img>img {
+}
+.main__shoes-img>img {
     width: 100%;
-  }
+}
 
-  .main__shoes-img {
+.main__shoes-img {
     margin-top: 10px;
-  }
+}
 
-  .main__shoes-images {
+.main__shoes-images {
     width: 100%;
-  }
+}
 
-  .main__shoes-cros {
+.main__shoes-cros {
     flex-direction: column;
-  }
+}
 }
 
 @media (max-width:1200px) {
-  
+.main__shoes-pharagraph {
+    margin: 15px 0px;
+}
+
+.main__shoes-img {
+    margin-bottom: 7px;
+}
+
+.main__shoes-images >img {
+    margin-right: 12px;
+}
+
 }
 
 @media (max-width:992px) {
-  
+
 }
 
 @media (max-width:768px) {
-  
+.main__shoes-pharagraph {
+    max-width: 540px;
+    width: 100%;
+}
+
+.main__shoes-view {
+    padding: 11px 90px;
+    margin-right: 15px;
+}
+
+.main__shoes-buy {
+    padding: 11px 90px;
+}
+
+.main__shoes-images {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.main__shoes-images>img {
+    margin: 0;
+}
 }
 
 @media (max-width:576px) {
-  
+
 }
 
 /*  qoshimcha medialar >>>  */
