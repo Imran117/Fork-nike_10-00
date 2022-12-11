@@ -37,6 +37,14 @@
 
 }
 
+@media (max-width:1111px) {
+ .submit__bottom {
+     grid-template-columns: 1fr 1fr ;
+     grid-gap: 20px;
+
+  } 
+}
+
 @media (max-width:992px) {
 
 }
@@ -66,7 +74,31 @@
     margin: 0;
 }
 }
-
+@media (max-width:727px) {
+    .submit__block {
+        width: 314px;
+        height: 382px; 
+        
+    }
+    .submit__block:last-child {
+        display: none;
+    }
+}
+@media (max-width:685px) {
+    .submit__bottom {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+   
+     } 
+     .footer__list {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+     .footer__info::before {
+        display: none;
+     }
+}
 @media (max-width:576px) {
     .main__shoes-pharagraph {
         font-size: 15px;

@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Roboto';
-}
-
 p {
   margin: 0;
   padding: 0;
@@ -24,6 +20,12 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
+
+body {
+  font-family: 'Roboto';
+}
+
 
 /* img {
   display: block;
@@ -119,6 +121,108 @@ h6 {
 .main__shoes-images>img {
   width: 345px;
   margin-right: 15px;
+}
+
+.footer  {
+  background: #322E41;
+}
+.submit {
+ margin: 0 auto;
+ padding: 0 15px;
+}
+.submit__top {
+ display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.submit__btn {
+  font-weight: 700;
+font-size: 24px;
+line-height: 18px;
+color: #2E2E3C;
+padding: 10px;
+width: 266px;
+height: 36px;
+border: 1px solid #000000;
+border-radius: 4px;
+margin: 40px 0;
+}
+.submit__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.submit__block {
+width: 350px;
+height: 502px;
+background:  url(../img/im1.png);
+font-weight: 700;
+font-size: 24px;
+line-height: 24px;
+color: white;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+padding: 20px;
+}
+.img2  {
+  background: url(../img/im2.png);
+}
+.img3  {
+  background: url(../img/im3.png);
+}
+.footer__top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 50px;
+  padding-top: 88px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+color: #ffffff;
+padding: 0 15px 23px;
+list-style: none;
+position: relative;
+
+}
+.footer__info::before {
+content: '';
+width: 100%;
+height: 0;
+position: absolute;
+opacity: 0;
+left: 0;
+bottom: 0;
+background: #ffffff;
+}
+.footer__info:hover::before {
+opacity: 1;
+height: 3px;
+width: 100%;
+background: white;
+}
+.footer__info:hover {
+  color: #FFE600;
+}
+.footer__title {
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: white;
+padding: 5px 0;
+background: #1E1A29;
+display: flex;
+justify-content: center;
 }
 
 .main__shoes-images>img:nth-child(2n) {
