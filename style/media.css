@@ -1,5 +1,25 @@
 @media (max-width:1400px) {
-  
+  .container {
+    padding: 10px 15px;
+  }
+  .main__shoes-buy:nth-child(2n) {
+    margin: 0;
+  }
+  .main__shoes-img>img {
+    width: 100%;
+  }
+
+  .main__shoes-img {
+    margin-top: 10px;
+  }
+
+  .main__shoes-images {
+    width: 100%;
+  }
+
+  .main__shoes-cros {
+    flex-direction: column;
+  }
 }
 
 @media (max-width:1200px) {
